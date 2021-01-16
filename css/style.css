@@ -1,0 +1,62 @@
+#demo{
+    width: 300px;
+    height: 300px;
+    background-color: brown;
+}
+#demo2{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(204, 11, 204);
+}
+#demo3{
+    width: 240px;
+    height: 240px;
+    background-color: darkblue; 
+}
+#demoo1{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(165, 195, 29);
+}
+#demoo2{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(139, 0, 93);
+}
+#demoo3{
+    width: 200px;
+    height: 200px;
+    background-color: dimgray;
+}
+
+#demo4{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(240, 10, 10);
+}
+#demo5{
+    width: 270px;
+    height: 60px;
+    background-color: rgb(14, 44, 3);
+}
+#demo5 h4{
+    color: white;
+}
+#demo6{
+    width: 270px;
+    height: 55px;
+    background-color: rgb(0, 0, 0);
+}
+#demo7{
+    width: 270px;
+    height: 55px;
+    background-color: rgb(34, 65, 65);
+}
+
+.btn{
+    transition: all 1s;
+}
+.btn:hover{
+    transform: scale(1.1,1.1);
+}
+
