@@ -2,16 +2,16 @@
 
 $("#ddemo").animate({ width: '100%' }, 1500);
 $("#ddemo").animate({ height: '250%' }, 1500, function () {
-    $("#sec2").show(1000, function () {
-        $(".welcome h1").show(1000, function () {
+    $(".welcome").fadeIn(1000, function () {
+        $("#sec2").show(2000, function () {
             $("#cont").show(1000, function () {
-                $("#secc1").fadeIn(1000, function () {
+                $("#secc1").fadeIn(1500, function () {
                     $("#demo").hide(1500);
                     $("#demo").show(1500, function () {
-                        $("#secc2").show(1000, function () {
+                        $("#secc2").show(1500, function () {
                             $("#demoo1").slideUp(1500);
                             $("#demoo1").slideDown(1500, function () {
-                                $("#secc3").slideDown(1000, function () {
+                                $("#secc3").slideDown(1500, function () {
                                     $("#demo4").fadeOut(1500);
                                     $("#demo4").fadeIn(1500);
                                 });
@@ -21,6 +21,7 @@ $("#ddemo").animate({ height: '250%' }, 1500, function () {
                 });
             });
         });
+
     });
 });
 
