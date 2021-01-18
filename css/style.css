@@ -5,7 +5,7 @@
     height: 7px;
 }
 
-#cont{
+.cont1,.cont2,.cont3,.cont4,.cont5,.cont6,.cont7,.cont8,.cont9,.cont10{
     display: none;
 }
 #sec2 ,#secc1,#secc2,#secc3,.welcome{
@@ -33,7 +33,7 @@
 #demo3{
     width: 240px;
     height: 240px;
-    background-color: darkblue; 
+    background-color: rgb(115, 115, 195); 
 }
 #demoo1{
     width: 250px;
@@ -80,6 +80,9 @@
 }
 .btn:hover{
     transform: scale(1.1,1.1);
+}
+#btn1:hover,#bbtn1:hover{
+    transform: scale(0.9,0.9);
 }
 
 
